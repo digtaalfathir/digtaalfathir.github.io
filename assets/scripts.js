@@ -6945,7 +6945,15 @@ var Td = ts.exports,
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ const Bd = De("Twitter", [["path", { d: "M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z", key: "pff0z6" }]]);
+ */ const Bd = De("Document", [
+  [
+    "path",
+    {
+      d: "M6 2C5.4 2 5 2.4 5 3v18c0 .6.4 1 1 1h12c.6 0 1-.4 1-1V8l-5-6H6zm7 7V3.5L18.5 9H13zm-5 4h8v2H8v-2zm0 4h8v2H8v-2z",
+      key: "documentIcon"
+    }
+  ]
+]);
 function Wd() {
   const [e, t] = Se.useState(!1);
   Se.useEffect(() => {
@@ -7096,7 +7104,7 @@ function Gd() {
             y.jsxs("div", {
               className: "flex flex-col md:flex-row gap-12 items-center",
               children: [
-                y.jsx("div", { className: "w-90 h-80 rounded", children: y.jsx("img", { src: "/images/mm_info.jpg", alt: "marina marques", className: "w-full h-full object-cover" }) }),
+                y.jsx("div", { className: "w-90 h-80 rounded", children: y.jsx("img", { src: "/images/mm_info.jpg", alt: "rifky andigta al-fathir", className: "w-full h-full object-cover" }) }),
                 y.jsxs("div", {
                   className: "flex-1 space-y-4 text-center md:text-left",
                   children: [
@@ -7162,30 +7170,30 @@ Landing page with a compliment generator.`,
               className: "flex flex-col sm:flex-row gap-6 justify-center",
               children: [
                 y.jsxs("a", {
-                  href: "mailto:9.marques.marina@gmail.com",
+                  href: "digtaalfathir36@gmail.com",
                   className: "inline-flex items-center gap-2 px-6 py-3 bg-white dark:bg-gray-900 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors dark:text-white",
-                  children: [y.jsx(Ud, { className: "w-5 h-5" }), "9.marques.marina@gmail.com"],
+                  children: [y.jsx(Ud, { className: "w-5 h-5" }), "digtaalfathir36@gmail.com"],
                 }),
                 y.jsxs("a", {
-                  href: "https://github.com/shvvffle",
+                  href: "https://github.com/digtaalfathir",
                   target: "_blank",
                   rel: "noopener noreferrer",
                   className: "inline-flex items-center gap-2 px-6 py-3 bg-white dark:bg-gray-900 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors dark:text-white",
                   children: [y.jsx(rc, { className: "w-5 h-5" }), "GitHub"],
                 }),
                 y.jsxs("a", {
-                  href: "https://pt.linkedin.com/in/marinamarques9",
+                  href: "https://pt.linkedin.com/in/rifky-andigta-alfathir-5b2228159/",
                   target: "_blank",
                   rel: "noopener noreferrer",
                   className: "inline-flex items-center gap-2 px-6 py-3 bg-white dark:bg-gray-900 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors dark:text-white",
                   children: [y.jsx(Fd, { className: "w-5 h-5" }), "LinkedIn"],
                 }),
                 y.jsxs("a", {
-                  href: "https://x.com/shvvffle",
+                  href: "https://digtaalfathir.github.io/webcv/",
                   target: "_blank",
                   rel: "noopener noreferrer",
                   className: "inline-flex items-center gap-2 px-6 py-3 bg-white dark:bg-gray-900 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors dark:text-white",
-                  children: [y.jsx(Bd, { className: "w-5 h-5" }), "Twitter"],
+                  children: [y.jsx(Bd, { className: "w-5 h-5" }), "CV"],
                 }),
               ],
             }),
@@ -7194,7 +7202,7 @@ Landing page with a compliment generator.`,
       }),
       y.jsx("footer", {
         className: "py-8 text-center text-gray-600 dark:text-gray-400 border-t border-gray-200 dark:border-gray-800",
-        children: y.jsxs("p", { children: ["© ", new Date().getFullYear(), " Marina Marques. All rights reserved."] }),
+        children: y.jsxs("p", { children: ["© ", new Date().getFullYear(), " Rifky Andigta Al-Fathir. All rights reserved."] }),
       }),
     ],
   });
