@@ -6950,9 +6950,9 @@ var Td = ts.exports,
     "path",
     {
       d: "M6 2C5.4 2 5 2.4 5 3v18c0 .6.4 1 1 1h12c.6 0 1-.4 1-1V8l-5-6H6zm7 7V3.5L18.5 9H13zm-5 4h8v2H8v-2zm0 4h8v2H8v-2z",
-      key: "documentIcon"
-    }
-  ]
+      key: "documentIcon",
+    },
+  ],
 ]);
 function Wd() {
   const [e, t] = Se.useState(!1);
@@ -7137,6 +7137,14 @@ function Gd() {
             y.jsxs("div", {
               className: "grid md:grid-cols-2 gap-8",
               children: [
+                y.jsx(Bu, {
+                  title: "My-Lestari",
+                  description: "Responsive personal/portfolio website. The source code is available at both Codepen and Github and has been used by over 300 people.",
+                  image: "/images/my-lestari.png",
+                  technologies: "Javascript, jQuery, HTML, CSS",
+                  liveUrl: "https://marinamarques.netlify.app/",
+                  githubUrl: "https://github.com/shvvffle/marinamarques.pt",
+                }),
                 y.jsx(Bu, {
                   title: "Are You Feeling Low?",
                   description: `For those rough days - a compliment per click.
